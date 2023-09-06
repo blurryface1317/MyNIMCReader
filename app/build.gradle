@@ -152,10 +152,13 @@ dependencies {
 
     // On Device Machine Learnings
     implementation "com.google.android.odml:image:1.0.0-beta1"
+
+    implementation 'com.airbnb.android:lottie:5.2.0'
 }
 
 configurations {
     // Resolves dependency conflict caused by some dependencies use
     // com.google.guava:guava and com.google.guava:listenablefuture together.
     all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+
 }

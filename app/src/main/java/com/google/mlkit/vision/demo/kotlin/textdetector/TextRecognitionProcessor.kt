@@ -69,7 +69,7 @@ class TextRecognitionProcessor(
     println(text.text)
     Log.e("recognised text" , text.text)
     logExtrasForTesting(text)
-    graphicOverlay.add(
+    /*graphicOverlay.add(
       TextGraphic(
         graphicOverlay,
         text,
@@ -77,7 +77,7 @@ class TextRecognitionProcessor(
         showLanguageTag,
         showConfidence
       )
-    )
+    )*/
   }
 
   override fun onFailure(e: Exception) {
